@@ -33,7 +33,7 @@ class Student(Family, School, Sports):
 fahad = Student("Dhaka", 193015061, "Advanced", "Cricket")
 print(fahad) """
 
-class Bank:
+""" class Bank:
     def __init__(self, holder_name, initial_deposit) -> None:
         self.holder_name = holder_name # public
         self._branch = "Mirpur" # protected
@@ -55,4 +55,4 @@ print(rafsun.deposit(5000))
 print(rafsun.get_balance())
 print(rafsun._branch)
 print(dir(rafsun))
-print(rafsun._Bank__balance)
+print(rafsun._Bank__balance) """
